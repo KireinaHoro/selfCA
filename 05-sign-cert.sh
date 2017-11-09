@@ -21,4 +21,4 @@ source util/request_san.sh
 openssl ca -config "$SELFCA_ROOT/$INTERMEDIATE_CERT_NAME/openssl.cnf" -extensions server_cert -extensions san_env -days $DAYS -notext -md sha256 -in "$CSR" -out "$CERT"
 chmod 444 "$CERT"
 openssl x509 -noout -text -in "$CERT"
-openssl verify -CAfile "$SELFCA_ROOT/$INTERMEDIATE_CERT_NAME/certs/ca-chain.cert.pem" "$CERT"
+openssl verify -CAfile "$SELFCA_ROOT/$INTERMEDIATE_CERT_NAME/certs/$INTERMEDIATE_CERT_NAME-ca-chain.cert.pem" "$CERT"
