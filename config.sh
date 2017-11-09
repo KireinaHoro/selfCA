@@ -14,7 +14,7 @@ ROOT_CERT_DAYS=7300
 ROOT_KEY_LENGTH=4096
 
 # Intermediate cert name
-INTERMEDIATE_CERT_NAME=server-intermediate
+INTERMEDIATE_CERT_NAME=client-intermediate
 
 # Intermediate certificate effective days
 INTERMEDIATE_CERT_DAYS=3650
