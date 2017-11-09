@@ -27,4 +27,4 @@ echo 1000 > serial
 echo 1000 > crlnumber
 
 cp "$PROGRAM_DIR/template/openssl.rootca.cnf" openssl.cnf
-sed -i "" -e "s/$(escape_sed_regex %rootdir%)/$(escape_sed_replace $SELFCA_ROOT)/g" openssl.cnf
+sed -i -e "s/$(escape_sed_regex %rootdir%)/$(escape_sed_replace $SELFCA_ROOT)/g" openssl.cnf

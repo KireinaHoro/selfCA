@@ -82,11 +82,12 @@ commonName                      = Common Name
 emailAddress                    = Email Address
 
 # Optionally, specify some defaults.
-countryName_default             = GB
-stateOrProvinceName_default     = England
+countryName_default             = JP
+stateOrProvinceName_default     = Tokyo
 localityName_default            =
-0.organizationName_default      = Alice Ltd
+0.organizationName_default      = JSteward Tech
 organizationalUnitName_default  =
+commonName_default              = JSteward Tech Root CA
 emailAddress_default            =
 
 [ v3_ca ]
