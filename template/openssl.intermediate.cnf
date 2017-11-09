@@ -87,6 +87,7 @@ stateOrProvinceName_default     = Tokyo
 localityName_default            =
 0.organizationName_default      = JSteward Tech
 organizationalUnitName_default  =
+commonName_default              = JSteward Tech Server Signing CA
 emailAddress_default            =
 
 [ v3_ca ]
